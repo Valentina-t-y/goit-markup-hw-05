@@ -597,6 +597,63 @@ body {
 }
 /*=========== /FOOTER FORM ===========*/
 
+/*=========== CUSTOM CHECKBOX ===========*/
+
+.form-agreement {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  user-select: none;
+}
+
+.form-agreement-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  stroke: rgba(46, 47, 66, 0.4);
+}
+
+.checkbox:checked + .form-agreement-checkbox {
+  background-color: #4d5ae5;
+  border-color: #4d5ae5;
+}
+
+.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+  opacity: 1;
+}
+
+.form-agreement-icon {
+  opacity: 0;
+}
+
+.form-agreement-link {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+
+.form-btn {
+  min-width: 105px;
+  min-height: 24px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*=========== /CUSTOM CHECKBOX ===========*/
+
 /*=========== MODAL WINDOW ===========*/
 .backdrop {
   position: fixed;

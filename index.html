@@ -568,15 +568,23 @@
             ></textarea>
           </div>
           <label class="form-agreement">
-            <input class="checkbox" type="checkbox" />
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="user_agreement"
+              checked
+              value="false"
+            />
             <span class="form-agreement-checkbox">
-              <svg class="-icon" width="10" height="8">
+              <svg class="form-agreement-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
             </span>
             I accept the terms and conditions of the
             <a class="form-agreement-link" href="">Privacy Policy</a>
           </label>
+
+          <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
