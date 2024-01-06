@@ -743,7 +743,7 @@ body {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-icon-btn {
