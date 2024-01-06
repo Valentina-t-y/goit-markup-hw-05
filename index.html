@@ -568,22 +568,25 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <label class="form-agreement">
+          <div class="form-checkbox">
             <input
+              id="user-privacy"
               class="checkbox visually-hidden"
               type="checkbox"
-              name="user_agreement"
+              name="user-privacy"
               checked
-              value="false"
+              value="true"
             />
-            <span class="form-agreement-checkbox">
-              <svg class="form-agreement-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-agreement-link" href="">Privacy Policy</a>
-          </label>
+            <label class="form-agreement" for="user-privacy">
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href="">Privacy Policy</a>
+            </label>
+          </div>
 
           <button class="form-btn" type="submit">Send</button>
         </form>
